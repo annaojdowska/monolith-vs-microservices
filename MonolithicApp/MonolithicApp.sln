@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithicApp", "MonolithicApp\MonolithicApp.csproj", "{B17C03DA-20E1-4B9B-B5B8-DBCA1C51FAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{A9865156-E49D-48F5-A865-533C920FFB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17C03DA-20E1-4B9B-B5B8-DBCA1C51FAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17C03DA-20E1-4B9B-B5B8-DBCA1C51FAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17C03DA-20E1-4B9B-B5B8-DBCA1C51FAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17C03DA-20E1-4B9B-B5B8-DBCA1C51FAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9865156-E49D-48F5-A865-533C920FFB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9865156-E49D-48F5-A865-533C920FFB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9865156-E49D-48F5-A865-533C920FFB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9865156-E49D-48F5-A865-533C920FFB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C302D320-4B24-4B42-8DB3-219317D30782}
+	EndGlobalSection
+EndGlobal
