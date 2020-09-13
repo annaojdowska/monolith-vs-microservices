@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "City.Services";
+
+service CityServiceProto{
+  rpc FindByName(FindCityMessage) returns (City);
+}
+
+message FindCityMessage {
+  string name = 1;
+}
+
+message City{
+  int32 cityId =1;
+  string name=2;
+  string state=3;
+  int32 population=4;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "Route.Services";
+
+service RouteServiceProto{
+	rpc FindShortestRoute(FindRouteMessage) returns (ShortRoute);
+}
+
+message FindRouteMessage{
+
+}
+
+message ShortRoute{
+	repeated string point=1;
+}

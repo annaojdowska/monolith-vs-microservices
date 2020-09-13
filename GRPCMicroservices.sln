@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "City", "City\City.csproj", "{EF14F499-AF5B-4628-8CD0-2286E773C977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Route", "Route\Route.csproj", "{2E258ECF-19D2-4836-B32D-6F753DFF2937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGatewayRPC", "APIGatewayRPC\APIGatewayRPC.csproj", "{390E6489-26AF-4BFC-A73E-8B45D4C93051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF14F499-AF5B-4628-8CD0-2286E773C977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14F499-AF5B-4628-8CD0-2286E773C977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF14F499-AF5B-4628-8CD0-2286E773C977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14F499-AF5B-4628-8CD0-2286E773C977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E258ECF-19D2-4836-B32D-6F753DFF2937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E258ECF-19D2-4836-B32D-6F753DFF2937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E258ECF-19D2-4836-B32D-6F753DFF2937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E258ECF-19D2-4836-B32D-6F753DFF2937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390E6489-26AF-4BFC-A73E-8B45D4C93051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390E6489-26AF-4BFC-A73E-8B45D4C93051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390E6489-26AF-4BFC-A73E-8B45D4C93051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390E6489-26AF-4BFC-A73E-8B45D4C93051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {248F8F13-54F3-40AF-869F-B52D5085DB64}
+	EndGlobalSection
+EndGlobal
